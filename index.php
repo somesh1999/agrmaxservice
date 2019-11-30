@@ -30,19 +30,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;display=swap" type="text/css" media="all">
     <link rel="stylesheet" href="Content/FrontTheme/css/slick-theme.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="Content/FrontTheme/css/slick.min.css" type="text/css" media="all" />
+    <style type="text/css">
+        .marginx{
+            margin-top:30px;
+        }
+    </style>
 
-    <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    '../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TTFDBSD');
-    </script>
-    <!-- End Google Tag Manager -->
 
     <script type="application/ld+json">
         {
@@ -498,21 +491,13 @@
                                                 <span class="menu-item-title">Who We Are</span>
                                             </a>
                                         </li>
-                                        <li class="menu-item-has-children">
+                                        <li class="">
                                             <a href="#">
                                                 <span class="sub-arrow">+</span>
-                                                <span class="menu-item-title">Our Products</span>
+                                                <span class="menu-item-title">Our Services</span>
                                                 <span class="toggle-sub-menu"> </span>
                                             </a>
-                                            <ul class="sub-menu">
-                                                <li><a href="real-estate-erp.html">Real Estate ERP </a></li>
-                                                
-                                            </ul>
-                                        </li>
-                                        <li class="">
-                                            <a href="construction-mobile-app.html">
-                                                <span class="menu-item-title">App</span>
-                                            </a>
+                                            
                                         </li>
                                         <li class="">
                                             <a href="contact-us.html">
@@ -567,17 +552,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)">
-                        <span class="menu-item-title">Our Products</span>
-                        <span class="toggle-sub-menu"> </span>
-                    </a>
-                    <ul class="sub-menu">
-                        <li><a href="real-estate-erp.html">Real Estate ERP </a></li>
-                        
-                    </ul>
-                </li>
-                <li class="">
-                    <a href="construction-mobile-app.html">
-                        <span class="menu-item-title">App</span>
+                        <span class="menu-item-title">Our Services</span>
                     </a>
                 </li>
                 <li class="">
@@ -589,9 +564,6 @@
             </ul>
         </div>
         <div class="mBackground d-block d-md-none">
-            <div class="mCall">
-                <a class="white" href="tel:+918140297820"><i class="fa fa-phone pr-10"></i>Call</a>
-            </div>
             <div class="mSchedule">
                 <a class="btn-open-popup-search show-search white" id="btn-open-popup-search" href="#"><i class="fa fa-wpforms pr-10"></i>Demo</a>
             </div>
@@ -633,11 +605,65 @@
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="mt-6"></div>
-                <h3 class="heading fz-40 mb-4 text-center"> Why Construction365cloud as a <span class="color">Real Estate ERP?</span></h3>
+                <h3 class="heading fz-40 mb-4 text-center color"> ABOUT <span class="" style="color:black;">US</span></h3>
                 <p class="text-justify mb-20 fz-18">
-                    Construction365cloud is customized Real estate ERP, an Internet-ready software solution popularly known as ERP for Construction & Re-development industries. As a fully-integrated real estate solution, Construction365cloud – Real Estate ERP Software offers a variety of margin safeguards to enable builders and contractors to get a profitable result in a construction project. In simple words, a Construction ERP is the software solution containing all the operative departments of the real estate firm. Construction365cloud helps in managing every aspect of the real estate industry from Project managers to materials, outsourcing jobs, plant management to mobile assets, and labor in the field effectively. Construction365cloud consists of integrated functions for Financial account management, Lead and Sales management, Marketing campaign management, Customer relationship management, Project budgeting, Estimation of costing, Project planning, & Project management, Purchase management, Store & Inventory control, Labor contract management, Human resource department management, Quality control management, Tender management, Billing management and Fixed asset management. All the above functions share common data, thus making the organization analogous. With Construction365cloud - enterprise resource planning (ERP) for Construction, you can bolster efficiency and visibility across your Project by leveraging our experience gained through successful implementation of our ERP Software in various construction companies.
+                   AGR MAX is a fastest growing global property service provider and
+                    development of premier integrating lifestyles. It has been shaping
+                    landscapes and lives since 2018. We specialise in creating value added
+                    services, well planned communities which meet the full spectrum of lifestyle
+                    needs internationally and have a significant presence in several key
+                    global markets with established operations in the worldwide. This is a key
+                    player in realising the vision of AGR MAX creating worldclass destination for
+                    living.
+
                 </p>
-                <div class="box-icon style-3">
+
+               
+
+                 <div class="box-icon style-3 marginx">
+                    <h4 class="heading fz-24-xs text-center-xs">
+                        <a class="link-secret" href="javascript:void(0)">Our Goals</a>
+                    </h4>
+                    <div class="text-justify fz-18">
+                         At AGRMAX, we firmly believe that the best
+                    Property Development companies are build around its
+                    services. That is why we and our centers are committed
+                    to provide our clients with the best in technology,
+                    marketing combined with the flexibility to run their own
+                    business.
+                    We provide the Estate industry’s top talent with the
+                    industry’s best business model – but we also provide a
+                    good work/life balance. It’s integral to how we
+                    operate. We’re proud to be operating in 30+ countries
+                    across world consisting of 200+ Centers. That’s how we
+                    are able to offer unprecedented levels of customer
+                    service and provide access to real estate resources not
+                    available anywhere else.
+                    </div>
+                </div>
+
+                 <div class="box-icon style-3 marginx">
+                    <h4 class="heading fz-24-xs text-center-xs">
+                        <a class="link-secret" href="javascript:void(0)">Our Vision</a>
+                    </h4>
+                    <div class="text-justify fz-18">
+                        Provide affordable hassle free user streamlined services/solutions.
+                    </div>
+                </div>
+
+                 <div class="box-icon style-3 marginx">
+                    <h4 class="heading fz-24-xs text-center-xs">
+                        <a class="link-secret" href="javascript:void(0)">Our Mission</a>
+                    </h4>
+                    <div class="text-justify fz-18">
+                       Aggregate the services in the real estate market so that
+                        individual/agents/realtors gets topnotch seamless service with
+                        completetransparency and of their choice .
+                    </div>
+                </div>
+
+
+                <div class="box-icon style-3 marginx">
                     <h4 class="heading fz-24-xs text-center-xs">
                         <a class="link-secret" href="javascript:void(0)">Why Real estate enterprise resource planning software mandatory for construction industry?</a>
                     </h4>
@@ -645,7 +671,7 @@
                         Real estate Industry is a capital-intensive industry, and it faces many difficulties in various areas from Project Planning to Execution. Project costing and working unitedly with suppliers, contractors, and labors call for a significant degree of clarity on cash flow, pricing, and regulatory compliance.
                     </div>
                 </div>
-                <div class="box-icon style-3">
+                <div class="box-icon style-3 marginx">
                     <h4 class="heading pt-20 fz-24-xs text-center-xs">
                         <a class="link-secret" href="javascript:void(0)">Manage resources with scheduling</a>
                     </h4>
@@ -1703,6 +1729,266 @@
     </div>
 </div>
 
+ <div class="col-lg-12 text-center">
+            <h3 class="heading fz-40 pt-xs-20 pt-lg-30 pb-xs-10"> Our <span class="color">Services</span></h3>
+    </div>
+<div class="section pt-10 pb-60 pb-xs-10">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8 offset-lg-2">
+                <div id="accordion" class="accordion">
+                    <div class="accordion-section">
+                        <div class="accordion-header active" id="headingOne">
+                            <div class="accordion-title">
+                                <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button" class="">
+                                    <span class="color accordion-marker">01</span>Sales
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manages all Sales activity like Inquiry, Booking management of unit and Car parking management.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manages all post sales activity like Loan detail entry, Installment management, Complaint management, and Master documents uploads.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingTwo">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
+                                    <span class="color accordion-marker">02</span>Survey & Planning
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manage all the activity likes Survey report and Land acquisition.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manage document construction project activity like Project creation, Agencies assignments and BOQ generation.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingThree">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
+                                    <span class="color accordion-marker">03</span>Construction
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Create and organize Work order, Assign task, and optimize productivity.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manage Material requisitions, Goods Receiving, Goods Issuing and Bills.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Generate reports : BOM Generation, Issue Note Generation, IGRN Generation and DPR reporting
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingFour">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" role="button">
+                                    <span class="color accordion-marker">04</span>Purchase
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Compare and Upload quatations.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Generate Reports : Indent Generation, GRN and Purchase order
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingFive">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" role="button">
+                                    <span class="color accordion-marker">05</span>Store
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Stock ledger management; both GRN and IGRN.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Generation of reports for Stocks, Aging, and Stock movement.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingThree">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" role="button">
+                                    <span class="color accordion-marker">06</span>Finance
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Automates tax compliances posting like Service tax and VAT.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Tally Integration.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Comprehensive financial report based on defined cost centre.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Detailed capital flow statement, projected and actual.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Auto voucher creation.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        GST and TDS reports.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingSeven">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" role="button">
+                                    <span class="color accordion-marker">07</span>Task Management
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manage all task activity like add task, assign task and add follow ups.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Task Reminder can be set as well.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingEight">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" role="button">
+                                    <span class="color accordion-marker">08</span>Admin
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Administrative setting, user roles and rights management.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Status of mail or SMS sent or received.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        It creates general work orders and purchase orders for localized purchases.
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Manage activity of Employee, Vendor and Agency.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <div class="accordion-header" id="headingNine">
+                            <div class="accordion-title">
+                                <div class="collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" role="button">
+                                    <span class="color accordion-marker">09</span>Utility
+                                </div>
+                                <span class="accordion-icon"></span>
+                            </div>
+                        </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion" style="">
+                            <div class="accordion-content fz-18">
+                                <ul>
+                                    <li class="d-flex">
+                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                        Integration with Email Client, Chat bot, OCR, IVR and SMS & Email Notification.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
         </div>
 
@@ -1779,7 +2065,7 @@
                         <div class="mb-2"></div>
                     </div>
                     <div class="col-md-6">
-                        <p class="fz-14"> © 2019 <a href="https://cittasolutions.com/" rel="nofollow" target="_blank"><span class="color">Citta Solutions</span></a>. All Rights Reserved. Terms &amp; Privacy.</p>
+                        <p class="fz-14"> © 2019 <a href="https://cittasolutions.com/" rel="nofollow" target="_blank"><span class="color">Agrmax</span></a>. All Rights Reserved. Terms &amp; Privacy.</p>
                     </div>
                     <div class="col-md-6">
                         <div>
@@ -1825,5 +2111,5 @@
 
 </body>
 
-<!-- Mirrored from www.construction365cloud.com/real-estate-erp by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2019 08:24:53 GMT -->
+
 </html>
