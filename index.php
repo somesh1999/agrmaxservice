@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from www.construction365cloud.com/real-estate-erp by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2019 08:17:24 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
@@ -478,29 +478,29 @@
                             <div class="branding">
                                 <div class="branding__logo">
                                     <a href="index.html" rel="home">
-                                        <img src="Content/FrontTheme/images/logo.webp" alt="Construction365Cloud" class="main-logo img-responsive" />
-                                        <img src="Content/FrontTheme/images/logo.webp" alt="Construction365Cloud" class="sticky-logo img-responsive" />
+                                        <img src="Content/FrontTheme/images/logo.webp" alt="logo" class="main-logo img-responsive" />
+                                        <img src="Content/FrontTheme/images/logo.webp" alt="logo" class="sticky-logo img-responsive" />
                                     </a>
                                 </div>
                             </div>
                             <div class="navigation page-navigation d-none d-xl-block">
                                 <nav class="menu menu--primary">
                                     <ul>
-                                        <li class="">
-                                            <a href="about-us.html">
+                                        <li class="" style="cursor: pointer;">
+                                            <a onclick="scrollto('aboutus')">
                                                 <span class="menu-item-title">Who We Are</span>
                                             </a>
                                         </li>
-                                        <li class="">
-                                            <a href="#">
-                                                <span class="sub-arrow">+</span>
+                                        <li class="" style="cursor: pointer;">
+                                            <a onclick="scrollto('services')">
+                                                <!-- <span class="sub-arrow">+</span> -->
                                                 <span class="menu-item-title">Our Services</span>
                                                 <span class="toggle-sub-menu"> </span>
                                             </a>
                                             
                                         </li>
-                                        <li class="">
-                                            <a href="contact-us.html">
+                                        <li class="" style="cursor: pointer;">
+                                            <a onclick="scrollto('footer')">
                                                 <span class="menu-item-title">Get In Touch</span>
                                             </a>
                                         </li>
@@ -513,7 +513,7 @@
 
                                 
                                 <div class="header-button d-none d-sm-block">
-                                    <a class="button style-outline btn-open-popup-search show-search" id="btn-open-popup-search" href="#">Schedule Demo</a>
+                                    <a class="button style-outline btn-open-popup-searchs show-searchs" id="btn-open-popup-search" href="#">Schedule Demo</a>
                                 </div>
                                 <div id="page-open-mobile-menu" class="page-open-mobile-menu">
                                     <div><i></i></div>
@@ -540,23 +540,19 @@
 
 
             <ul class="mobile-menu">
-                <li>
-                    <a href="index.html">
-                        <span class="menu-item-title">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="about-us.html">
+                
+                <li style="cursor: pointer;">
+                    <a onclick="scrollto('aboutus')">
                         <span class="menu-item-title">Who We Are</span>
                     </a>
                 </li>
-                <li>
-                    <a href="javascript:void(0)">
+                <li style="cursor: pointer;">
+                    <a onclick="scrollto('services')">
                         <span class="menu-item-title">Our Services</span>
                     </a>
                 </li>
-                <li class="">
-                    <a href="contact-us.html">
+                <li class="" style="cursor: pointer;">
+                    <a onclick="scrollto('footer')">
                         <span class="menu-item-title">Get In Touch</span>
                     </a>
                 </li>
@@ -602,7 +598,7 @@
 
 <div class="section pt-1 pb-10">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="aboutus">
             <div class="col-lg-10 offset-lg-1">
                 <div class="mt-6"></div>
                 <h3 class="heading fz-40 mb-4 text-center color"> ABOUT <span class="" style="color:black;">US</span></h3>
@@ -927,13 +923,17 @@
             <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
         </select>
     </div>
-    <div class="form-group col-md-6 col-lg-4 pl-0 pr-5">
+    <div class="form-group col-md-6 col-lg-8 pl-0 pr-5">
         <input type="text" name="h_mobile" id="h_mobile" required placeholder="Contact Number">
+    </div>
+
+     <div class="form-group col-md-12 col-lg-12 pl-0 pr-5">
+        <textarea name="message" id="h_message" placeholder="Message" style="height: 100px;"></textarea>
     </div>
 
 
     <div class="form-group col-xs-3 col-lg-4">
-        <input type="submit" value="Schedule Demo" onclick="return Inquiry_home()" class="form-submit button style-flat">
+        <input type="submit" value="Post Enquiry" onclick="return Inquiry_home()" class="form-submit button style-flat">
     </div>
 </div>
 </form>
@@ -1361,7 +1361,7 @@
                                 </h4>
                             </div>
                             <div class="text-justify fz-18">
-                                Construction365cloud offers to set the prices for the different types of construction services provided by the construction company and manage the cost for each service or project at each level from employee to contractor and production manager to administration. It also offers functions like trace time expenses, manages project timelines, and produce actionable data to increase productivity, make purchase orders, and create invoices.
+                                Agrmax offers to set the prices for the different types of construction services provided by the construction company and manage the cost for each service or project at each level from employee to contractor and production manager to administration. It also offers functions like trace time expenses, manages project timelines, and produce actionable data to increase productivity, make purchase orders, and create invoices.
                             </div>
 
                         </div>
@@ -1402,7 +1402,7 @@
                                 </h4>
                             </div>
                             <div class="text-justify fz-18">
-                                Workload self-regulation, team supervision, task distributions and control, and job schedule for each task is called Site management. This function of the real estate enterprise resource planning software will be helpful for any residential or commercial projects to schedule tasks properly. It also helps in allocating a task to the right people with equipment records over various projects. Construction365cloud helps in managing workload on different projects with the capacity to immediately re-balance this workload in response to unforeseeable obstacles (weather, client input, job site challenges, etc.). It is also a key feature to plan the project timeline and allot workers and supports. As a result, to foretell meaningful inter-dependencies of workers and supplies, create reminders for subcontractors and other staff, and coordinate this schedule as a project progresses to account for external factors.
+                                Workload self-regulation, team supervision, task distributions and control, and job schedule for each task is called Site management. This function of the real estate enterprise resource planning software will be helpful for any residential or commercial projects to schedule tasks properly. It also helps in allocating a task to the right people with equipment records over various projects. Agrmax helps in managing workload on different projects with the capacity to immediately re-balance this workload in response to unforeseeable obstacles (weather, client input, job site challenges, etc.). It is also a key feature to plan the project timeline and allot workers and supports. As a result, to foretell meaningful inter-dependencies of workers and supplies, create reminders for subcontractors and other staff, and coordinate this schedule as a project progresses to account for external factors.
                             </div>
 
                         </div>
@@ -1425,7 +1425,7 @@
                                 </h4>
                             </div>
                             <div class="text-justify fz-18">
-                                In the construction industry, the main reason for the collection of various data reports is to improve efficiency and make business more profitable. In the construction business, where subcontractors face issues on efficiency and quality, the data plays a significant role to gain a competitive advantage. Though, manually collecting and optimizing data for generating various reports is hard to achieve. Construction365cloud has a real-time reporting system which helps in generating custom reports for an employee, subcontractors, finance department, and admin department. Custom reports help to understand better what is going in business and moderate the way to increase profitability and efficiency of the worksite.
+                                In the construction industry, the main reason for the collection of various data reports is to improve efficiency and make business more profitable. In the construction business, where subcontractors face issues on efficiency and quality, the data plays a significant role to gain a competitive advantage. Though, manually collecting and optimizing data for generating various reports is hard to achieve. Agrmax has a real-time reporting system which helps in generating custom reports for an employee, subcontractors, finance department, and admin department. Custom reports help to understand better what is going in business and moderate the way to increase profitability and efficiency of the worksite.
                             </div>
 
                         </div>
@@ -1467,7 +1467,7 @@
                                     <a href="javascript:void(0);">Inventory Management</a>
                                 </h4>
                             </div>
-                            <div class="text-justify fz-18">This feature allows a user to manage inventory stock with minimum stock levels and report effectively. You can set minimum-maximum stocks threshold limits, goods invoices, tracks of multiple suppliers with material details in our construction inventory management system. Easily search and track inventory and prepare which stocks of inventory are appended to specific project orders. Set up multiple locations as the warehouse where inventories are stored, either it's a warehouse or project site. Construction365cloud's Inventory management features handle material invoice record, serialization, supplier history records. Create a material reorder list based on stock and generate purchase orders.</div>
+                            <div class="text-justify fz-18">This feature allows a user to manage inventory stock with minimum stock levels and report effectively. You can set minimum-maximum stocks threshold limits, goods invoices, tracks of multiple suppliers with material details in our construction inventory management system. Easily search and track inventory and prepare which stocks of inventory are appended to specific project orders. Set up multiple locations as the warehouse where inventories are stored, either it's a warehouse or project site. Agrmax's Inventory management features handle material invoice record, serialization, supplier history records. Create a material reorder list based on stock and generate purchase orders.</div>
 
                         </div>
                     </div>
@@ -1527,7 +1527,7 @@
                                 </h4>
                             </div>
                             <div class="text-justify fz-18">
-                                Construction365cloud – building construction management software provides user's easy cycle of approval, where management can approve such things based on authority. In the approval cycle, there is a sequence of authority like Purchase manager, engineering head, the accounting department, admin assistant, and Managing Director. All the document approval process is going in series, when approved by the purchase manager, the document will go to the engineering head, then it will go to Managing Director for final approval.
+                                Agrmax – building construction management software provides user's easy cycle of approval, where management can approve such things based on authority. In the approval cycle, there is a sequence of authority like Purchase manager, engineering head, the accounting department, admin assistant, and Managing Director. All the document approval process is going in series, when approved by the purchase manager, the document will go to the engineering head, then it will go to Managing Director for final approval.
                             </div>
 
                         </div>
@@ -1664,7 +1664,7 @@
                                     <a href="javascript:void(0);">Easy Account Tracking</a>
                                 </h4>
                             </div>
-                            <div class="text-justify fz-18">Keeping track of payment records without real estate erp is very complicated. It becomes even more complex when a company needs to track payments incurred from various means which require a few days to process. There is a high risk of missing the payment records, resulting in companies losing track of payments and incurring losses. Construction365cloud enabled with payment accounting features can quickly help real estate businesses deal with these problems. It reviews invoices, keep reports, and watches payments from each buyer, which lets companies generate financial reports automatically. It grants businesses to optimize the processes and take more reliable decisions in sales, leasing, or renting properties.</div>
+                            <div class="text-justify fz-18">Keeping track of payment records without real estate erp is very complicated. It becomes even more complex when a company needs to track payments incurred from various means which require a few days to process. There is a high risk of missing the payment records, resulting in companies losing track of payments and incurring losses. Agrmax enabled with payment accounting features can quickly help real estate businesses deal with these problems. It reviews invoices, keep reports, and watches payments from each buyer, which lets companies generate financial reports automatically. It grants businesses to optimize the processes and take more reliable decisions in sales, leasing, or renting properties.</div>
                         </div>
                     </div>
                 </div>
@@ -1684,7 +1684,7 @@
                                     <a href="javascript:void(0);">Cloud-Based Software Offers 24*7 Availability</a>
                                 </h4>
                             </div>
-                            <div class="text-justify fz-18">The main benefit of cloud-based Software is 24*7 availability. Cloud-based real estate erp allows control of all your project information in one place, from anywhere. Construction365cloud is cloud-based real-estate management software that keeps construction teams better connected and organized.</div>
+                            <div class="text-justify fz-18">The main benefit of cloud-based Software is 24*7 availability. Cloud-based real estate erp allows control of all your project information in one place, from anywhere. Agrmax is cloud-based real-estate management software that keeps construction teams better connected and organized.</div>
                         </div>
                     </div>
                 </div>
@@ -1701,7 +1701,7 @@
                                     <a href="javascript:void(0);">Easy Sale And Lease Processing</a>
                                 </h4>
                             </div>
-                            <div class="text-justify fz-18">Construction365cloud helps real estate companies efficiently manage sales funnel, watch the lease dates, and other related activities. The system uses robust governance features, which allow administrators to set rules that would automatically trigger like reminders and escalations, assuring timely action.</div>
+                            <div class="text-justify fz-18">Agrmax helps real estate companies efficiently manage sales funnel, watch the lease dates, and other related activities. The system uses robust governance features, which allow administrators to set rules that would automatically trigger like reminders and escalations, assuring timely action.</div>
                         </div>
                     </div>
                 </div>
@@ -1729,7 +1729,7 @@
     </div>
 </div>
 
- <div class="col-lg-12 text-center">
+ <div class="col-lg-12 text-center" id="services">
             <h3 class="heading fz-40 pt-xs-20 pt-lg-30 pb-xs-10"> Our <span class="color">Services</span></h3>
     </div>
 <div class="section pt-10 pb-60 pb-xs-10">
@@ -1742,14 +1742,14 @@
                         <div class="accordion-header active" id="headingOne">
                             <div class="accordion-title">
                                 <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button" class="">
-                                    <span class="color accordion-marker">01</span>Sales
+                                    <span class="color accordion-marker">01</span>Global Property Management
                                 </div>
                                 <span class="accordion-icon"></span>
                             </div>
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
                             <div class="accordion-content fz-18">
-                                <ul>
+                              <!--   <ul>
                                     <li class="d-flex">
                                         <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
                                         Manages all Sales activity like Inquiry, Booking management of unit and Car parking management.
@@ -1758,6 +1758,14 @@
                                         <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
                                         Manages all post sales activity like Loan detail entry, Installment management, Complaint management, and Master documents uploads.
                                     </li>
+                                </ul> -->
+                                 <ul>
+                                <li class="d-flex">
+                                <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                Our management manage property on behalf of our esteemed landlords and relieve them of their responsibility of managing tenants. Users will have peace of mind .</li>
+                                <li class="d-flex">
+                                    <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                Services include rent guarantee, tenant assessment , agreement , replacement and others like asset insurance, claims on change/damage and management of property area and a lot more.</li>
                                 </ul>
                             </div>
                         </div>
@@ -1766,7 +1774,7 @@
                         <div class="accordion-header" id="headingTwo">
                             <div class="accordion-title">
                                 <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
-                                    <span class="color accordion-marker">02</span>Survey & Planning
+                                    <span class="color accordion-marker">02</span>Corporate Service
                                 </div>
                                 <span class="accordion-icon"></span>
                             </div>
@@ -1774,14 +1782,12 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
                             <div class="accordion-content fz-18">
                                 <ul>
-                                    <li class="d-flex">
-                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
-                                        Manage all the activity likes Survey report and Land acquisition.
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
-                                        Manage document construction project activity like Project creation, Agencies assignments and BOQ generation.
-                                    </li>
+
+                                   <li class="d-flex">
+                                     <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                     Business feasibility and facilitation.<li>
+                                   <li class="d-flex"> <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                   Business support in the area of finance , Human Resource, Information Technology, procurement and Infrastructure</li>
                                 </ul>
                             </div>
                         </div>
@@ -1790,7 +1796,7 @@
                         <div class="accordion-header" id="headingThree">
                             <div class="accordion-title">
                                 <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
-                                    <span class="color accordion-marker">03</span>Construction
+                                    <span class="color accordion-marker">03</span>Architectural and Structural Planning and Designing
                                 </div>
                                 <span class="accordion-icon"></span>
                             </div>
@@ -1798,18 +1804,12 @@
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
                             <div class="accordion-content fz-18">
                                 <ul>
-                                    <li class="d-flex">
-                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
-                                        Create and organize Work order, Assign task, and optimize productivity.
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
-                                        Manage Material requisitions, Goods Receiving, Goods Issuing and Bills.
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
-                                        Generate reports : BOM Generation, Issue Note Generation, IGRN Generation and DPR reporting
-                                    </li>
+                                    <li class="d-flex"> <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                    Comprises of a group of young talented and energetic Architects, Urban Designers, Planners, Interior designers, Sociologist, Horticulturist, Artists and Civil engineers</li>
+                                    <li class="d-flex"> <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                    Innovative research, design, and expertise in wastage management of material, compatible space management and durable design will provide a luxurious and royal living style to customer.</li>
+                                    <li class="d-flex"> <i class="fa fa-check-circle text-primary pt-5 pr-5"></i>
+                                    Providing a durable, stable, long lasting structural frame which will stay with you for almost 60 years .</li>
                                 </ul>
                             </div>
                         </div>
@@ -1994,13 +1994,13 @@
 
        
 
-        <footer class="footer footer-light footer-reveal">
+        <footer class="footer footer-light footer-reveal" id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 pb-xs-10">
                         <div class="widget">
                             <a href="index-2.html" rel="home">
-                                <img src="Content/FrontTheme/images/logo.webp" alt="Construction365Cloud" class="footer-logo" />
+                                <img src="Content/FrontTheme/images/logo.webp" alt="logo" class="footer-logo" />
                             </a>
                             <div class="mb-2"></div>
                             <p class="fz-18"> We're on a mission to build a better future where technology creates good jobs for everyone.</p>
@@ -2010,10 +2010,10 @@
                         <div class="widget">
                             <h2 class="widget_text fz-24">Quick Links</h2>
                             <ul class="menu fz-18">
-                                <li><a href="about-us.html">Our Company</a></li>
-                                <li><a href="terms-of-use.html">Terms of Use</a></li>
-                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                <li><a href="join-our-program.html">Join Our Program</a></li>
+                                <li><a href="#">Our Company</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Join Our Program</a></li>
                                 
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
@@ -2023,7 +2023,7 @@
                         <div class="widget">
                             <h2 class="widget_text fz-24">Products</h2>
                             <ul class="menu fz-18">
-                                <li><a href="real-estate-erp.html">Real Estate ERP </a></li>
+                                <li><a href="/">Real Estate ERP </a></li>
                                 
                             </ul>
                         </div>
@@ -2033,18 +2033,20 @@
                             <h2 class="widget_text fz-24">Contact Us</h2>
                             <div class="textwidget fz-18">
                                 <div>
-                                    #911, Times Square Arcade, <br />
-                                    Opp. Rambaug, Nr. Ravija Plaza, <br />
-                                    Thaltej-Shilaj Road, Thaltej. <br />
-                                    Ahmedabad-380059.
+                                    AGR MAX, <br />
+                                    #1108, DLF Cybercity,, <br />
+                                    Chandaka Industrial Estate, <br />
+                                    Infocity, Patia, Bhubaneswar. <br />
+                                    Odisha-751024, India
                                 </div>
-                                <div class="fz-18"><a href="mailto:business@cittasolutions.com">business@cittasolutions.com</a></div>
-                                <div class="mb-10 fz-18"><a href="tel:08140297820">+91 81 4029 7820</a></div>
+                                <div class="fz-18"><a href="mailto:support@agrmax.com">support@agrmax.com</a></div>
+                                <div class="fz-18"><a href="tel:7077431111">+91-7077431111</a></div>
+                                <div class="mb-10 fz-18"><a>91-7077191111</a>(Whatsapp)</div>
                                 <div class="footer-social-networks  inner">
-                                    <a class="hint--bounce hint--top" aria-label="Facebook" href="https://www.facebook.com/construction365cloud/" target="_blank">
-                                        <i class="fa fa-facebook"></i>
+                                    <a class="hint--bounce hint--top" aria-label="Facebook" href="https://agrmax.com" target="_blank">
+                                        <i class="fa fa-globe"></i> https://agrmax.com
                                     </a>
-                                    <a class="hint--bounce hint--top" aria-label="Twitter" href="https://twitter.com/Construction361" target="_blank">
+                                    <!-- <a class="hint--bounce hint--top" aria-label="Twitter" href="https://twitter.com/Construction361" target="_blank">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                     <a class="hint--bounce hint--top" aria-label="Instagram" href="https://www.instagram.com/construction365cloud/" target="_blank">
@@ -2052,7 +2054,7 @@
                                     </a>
                                     <a class="hint--bounce hint--top" aria-label="LinkedIn" href="https://www.linkedin.com/showcase/construction365cloud-real-estate-erp" target="_blank">
                                         <i class="fa fa-linkedin"></i>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -2065,7 +2067,7 @@
                         <div class="mb-2"></div>
                     </div>
                     <div class="col-md-6">
-                        <p class="fz-14"> © 2019 <a href="https://cittasolutions.com/" rel="nofollow" target="_blank"><span class="color">Agrmax</span></a>. All Rights Reserved. Terms &amp; Privacy.</p>
+                        <p class="fz-14"> © 2019 <a href="https://agrmax.com/" rel="nofollow" target="_blank"><span class="color">Agrmax</span></a>. All Rights Reserved. Terms &amp; Privacy.</p>
                     </div>
                     <div class="col-md-6">
                         <div>
@@ -2111,5 +2113,12 @@
 
 </body>
 
+<script>
+    function scrollto(divid){
+         $('html, body').animate({
+        scrollTop: $("#"+divid).offset().top
+        }, 1000);
+    }
 
+</script>
 </html>
